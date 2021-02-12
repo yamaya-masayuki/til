@@ -1,4 +1,4 @@
-# メトリクスの種類
+# 監視データ種類 ~ メトリクスとイベント
 
 [モダンなインフラストラクチャの監視](https://lp.datadoghq.com/rs/875-UVY-685/images/eBookMonitoringModernInfrastructureJP.pdf)より。
 
