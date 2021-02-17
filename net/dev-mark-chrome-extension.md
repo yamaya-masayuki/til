@@ -2,8 +2,6 @@
 
 [Dev Mark - Chrome ウェブストア](https://chrome.google.com/webstore/detail/dev-mark/bnpplihcampoabjlbcchijpcinnjdbjp)
 
-![](https://lh3.googleusercontent.com/jUjN_K4Gyg6nUSc2gH-0zRPzqOTo8NRLvH41XHn9GYuP4mM7zpbS-gkLqSkyGJnjJeCdy0sQ1bc5rVR62KLU_ohE8C8=w640-h400-e365-rj-sc0x00ffffff)
-
 ## 設定方法
 
 ### グローバルな設定
