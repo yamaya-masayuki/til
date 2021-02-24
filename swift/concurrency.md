@@ -1,6 +1,6 @@
 # Swift 6で導入予定の並列性対応
 
-[Swift Concurrency Roadmap](https://forums.swift.org/t/swift-concurrency-roadmap/41611)より
+[Swift Concurrency Roadmap](https://forums.swift.org/t/swift-concurrency-roadmap/41611)の勝手訳です。
 
 私たちの目標は、Swiftでの並行プログラミングを便利に、効率的に、そして安全にする
 ことです。
