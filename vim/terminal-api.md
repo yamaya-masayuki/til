@@ -18,7 +18,7 @@ terminalで実行しているshellからvimにコマンドを送信すること�
 
 ## 例
 
-```text
+```shell
 echo -e "\x1b]51;[\"drop\",\"/u/foo/.vimrc\"
 ```
 
