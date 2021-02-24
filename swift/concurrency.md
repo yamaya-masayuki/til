@@ -252,11 +252,11 @@ actor class RacyActor {
     // 保護: グローバル変数はグローバル・アクタで保護される
     safeGlobal += ["Safe access"]
   
-    // 暴露: グローバル変数はアクタ内では保護されない
+    // 保護しない: グローバル変数はアクタ内では保護されない
     racyGlobal += ["Racy access"]
     
-    // 暴露: racyPropertyは不変ですが参照型です。何故なら、暴露されされ共有され
-    // たミュータブル型へのアクセスをできるようにするためです
+    // 保護しない: racyPropertyは不変ですが参照型です。何故なら、暴露され共有さ
+    // れたミュータブル型へアクセスできるようにするためです
     other.takeClass(immutableClassReference)
   }
   
