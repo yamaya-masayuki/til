@@ -29,4 +29,6 @@
 上記は Pre-loaded Public Key Pinning と言う手法。
 
 これとは別に HTTP based Public Key Pinningと言う方法がある。
-参考: [HTTP Public Key Pinning (HPKP) - Web セキュリティ | MDN](https://developer.mozilla.org/ja/docs/Web/Security/Public_Key_Pinning)
+
+参考:
+[HTTP Public Key Pinning (HPKP) - Web セキュリティ | MDN](https://developer.mozilla.org/ja/docs/Web/Security/Public_Key_Pinning)

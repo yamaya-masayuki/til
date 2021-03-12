@@ -12,4 +12,3 @@
 --regex-swift=/class[ \t]+([^:\{]+).*$/\1/,class/ 
 --regex-swift=/protocol[ \t]+([^:\{]+).*$/\1/,protocol/
 ```
-
