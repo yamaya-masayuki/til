@@ -1,4 +1,4 @@
-# 再起動がともなうEC2のスケジュールイベントのリスケ
+# 再起動がともなうEC2スケジュールイベントのリスケ
 
 [再起動がともなうAmazon EC2のスケジュールイベントの開始時間を変更出来る機能がリリースされました。 | DevelopersIO](https://dev.classmethod.jp/articles/reschedule-amazon-ec2-scheduled-events/)
 
