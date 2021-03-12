@@ -1,11 +1,13 @@
 # rustクレートのdocsetを作る
 
 [Dash](https://kapeli.com/dash)デフォルトのrust docsetでは標準ライブラリまでしか含まれない。
-3rdパーティなクレートのdocsetを作るには [rust-dash-docset-gen](https://github.com/cmyr/rust-dash-docset-gen) を使う。
+3rdパーティなクレートのdocsetを作るには
+[rust-dash-docset-gen](https://github.com/cmyr/rust-dash-docset-gen)
+を使う。
 
 ## インストール
 
-README.md通りなのだが…
+README.md通り。
 
 ```shell
 git clone https://github.com/cmyr/rust-dash-docset-gen.git
