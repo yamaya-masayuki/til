@@ -50,3 +50,7 @@ public struct AVAudioSpatializationFormats : OptionSet {
     public static var monoStereoAndMultichannel: AVAudioSpatializationFormats { get } 
 }
 ```
+
+## デモ
+
+寸劇が寒い。
