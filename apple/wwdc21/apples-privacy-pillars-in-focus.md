@@ -66,3 +66,21 @@ Private Relayでは、**RSA Blinded Signatures**を用いて、IDやアカウン
 これにより、私が選んだプロキシ事業者に、必要なときにいつでもアクセスできるようになります。
 
 私が選んだプロキシの間で情報の分離を強制するために、接続は何層もの暗号化を使用して構築されています。プロキシは、接続が通過するとレイヤーごとに削除します。私のデバイスだけが、私がFurniture Site(家具販売サイト)にアクセスしていることを知るために必要な、すべてのレイヤーを解読することができます。
+
+![Access Token Management](private-relay-token.png)
+
+図中の`Unlinkable Token`がRSA Blinded Signatureで署名されたトークンである。
+
+[ブラインド署名](https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%E7%BD%B2%E5%90%8D) は内容を参照することなく署名する技術。例えるなら、署名欄だけ開けたカバーを手紙に被せて、署名だけするイメージだそう。オンライン匿名投票システムや電子マネーが利用例らしい。
+
+![Proxies Sequences](private-relay-seq.png)
+
+1. クライアントIPはIngress Proxyで地域(例えば、東京)に変換される
+2. クライアントはその地域を付帯させたリクエストをEgress Proxy経由で送信する
+3. Egress Proxyは地域に割り当てられたIPアドレス群からランダムに選択する
+4. ランダム選択したIPアドレスを使用して対向にアクセスする
+
+Proxyを経由してIPアドレスを秘匿する技術は Oblivious HTTP というらしい。
+
+- [draft-thomson-http-oblivious-01 - Oblivious HTTP](https://datatracker.ietf.org/doc/draft-thomson-http-oblivious/)
+- [プライバシーを保護する Oblivious HTTP の仕様 - ASnoKaze blog](https://asnokaze.hatenablog.com/entry/2021/02/08/001011)
