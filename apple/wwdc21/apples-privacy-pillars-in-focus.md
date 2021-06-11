@@ -71,7 +71,7 @@ Private Relayでは、**RSA Blinded Signatures**を用いて、IDやアカウン
 
 図中の`Unlinkable Token`がRSA Blinded Signatureで署名されたトークンである。
 
-[ブラインド署名](https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%E7%BD%B2%E5%90%8D) は内容を参照することなく署名する技術。例えるなら、署名欄だけ開けたカバーを手紙に被せて、署名だけするイメージだそう。オンライン匿名投票システムや電子マネーが利用例らしい。
+[ブラインド署名](https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%E7%BD%B2%E5%90%8D) は内容を参照することなく署名する技術。例えるなら、署名欄部分だけ穴を開けたカバーを手紙(内容)に被せて、署名だけするイメージだそう。オンライン匿名投票システムや電子マネーが利用例らしい。
 
 ![Proxies Sequences](private-relay-seq.png)
 
