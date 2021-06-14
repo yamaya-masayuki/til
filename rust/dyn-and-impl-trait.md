@@ -12,19 +12,19 @@
 fn f<B: Bar>(b: B) -> usize
 ```
 
-これを implトレイトを使用すると以下のように書ける:
+これをimplトレイトを使用すると以下のように書ける。
 
 ```rust
 fn f(b: impl Bar) -> usize
 ```
 
-注意点としては、複数引数で以下のような宣言の場合:
+注意点としては、複数引数で以下のような宣言の場合。
 
 ```rust
 fn f(b1: impl Bar, b2: impl Bar) -> usize
 ```
 
-と同等な宣言は:
+と同等な宣言は。
 
 ```rust
 fn f<B1: Bar, B2: Bar>(b1: B1, b2: B2) -> usize
