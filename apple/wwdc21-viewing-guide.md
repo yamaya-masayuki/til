@@ -1,4 +1,4 @@
-# WWDC 2021 参照ガイド
+# WWDC 2021 視聴ガイド
 
 [WWDC 2021 Viewing Guide](https://useyourloaf.com/blog/wwdc-2021-viewing-guide/) の勝手訳。
 
@@ -143,7 +143,7 @@ Xcode 13では、Xcode Cloudが大きなニュースですが、新しいドキ�
 
 ### Localization
 
-- [Localize your SwiftUI app](https://developer.apple.com/videos/play/wwdc2021/10220) キーボードのショートカットは、異なるキーボードで動作するように翻訳されます。文字列を抽出するためにコンパイラを使用するように既存のプロジェクトをオプトイン。 
+- [Localize your SwiftUI app](https://developer.apple.com/videos/play/wwdc2021/10220) キーボードのショートカットは、異なるキーボードで動作するように翻訳されます。文字列を抽出するためにコンパイラを使用するように既存のプロジェクトをオプトイン。
 - [Streamline your localized strings](https://developer.apple.com/videos/play/wwdc2021/10221) Xcode 13では、エクスポートされたローカリゼーションカタログを直接表示および編集できます。文法の自動一致（英語とスペイン語）。
 
 ### Source Control
@@ -167,7 +167,7 @@ Xcode 13では、Xcode Cloudが大きなニュースですが、新しいドキ�
 - [Detect bugs early with the static analyzer](https://developer.apple.com/videos/play/wwdc2021/10202) スタティック・アナライザーが、無限ループ、未使用／冗長コード、アサートの副作用をチェックするようになりました。
 - [Understand and eliminate hangs from your app](https://developer.apple.com/videos/play/wwdc2021/10258)
 - [Triage TestFlight crashes in Xcode Organizer](https://developer.apple.com/videos/play/wwdc2021/10203) TestFlightのクラッシュフィードバックがXcodeのクラッシュオーガナイザーに含まれるようになりました。
-- [Explore advanced project configuration in Xcode](https://developer.apple.com/videos/play/wwdc2021/10210) 
+- [Explore advanced project configuration in Xcode](https://developer.apple.com/videos/play/wwdc2021/10210)
 - [Symbolication: Beyond the basics](https://developer.apple.com/videos/play/wwdc2021/10211) 深く掘り下げます。
 
 ## System Frameworks
