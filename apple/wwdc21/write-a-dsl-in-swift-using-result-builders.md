@@ -249,8 +249,6 @@ enum SmoothieBuilder {
 }
 ```
 
-
-
 ## まとめ
 
 DSLは複雑なSwiftコードをより綺麗にできる。
