@@ -1,6 +1,6 @@
 # メモリフォリオ
 
-[Linux 5.16から導入された、メモリ管理方式]([「Linux 5.16」が公開 | OSDN Magazine](https://mag.osdn.jp/22/01/11/194000))。
+Linux 5.16から導入されたメモリ管理方式([「Linux 5.16」が公開 | OSDN Magazine](https://mag.osdn.jp/22/01/11/194000))。
 
 [Memory folios [LWN.net]](https://lwn.net/Articles/856016/)より抜粋して勝手訳。
 
