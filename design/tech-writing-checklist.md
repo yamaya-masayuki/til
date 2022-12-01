@@ -1,5 +1,4 @@
-# [writing] テクニカルライティング
-[2022-12-01 14:35]
+# テクニカルライティング
 
 [テクニカルライティングの基本 - Speaker Deck](https://speakerdeck.com/naohiro_nakata/technicalwriting)から抜粋してチェックリストに仕立てた。
 
