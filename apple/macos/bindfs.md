@@ -1,4 +1,6 @@
-# macOS Big Surでbindfsを使う
+# macOS Big Sur以降でbindfsを使う
+
+## 基本
 
 homebrewのbindfsは無効になっている。
 代替手段として`gromgit/fuse`を使う。
@@ -6,7 +8,7 @@ homebrewのbindfsは無効になっている。
 インストール済みのFUSEファイルシステムがあるならば、アンインストールしておくこと。
 
 ```bash
-brew install --cask macfuse
+brew install macfuse
 brew install gromgit/fuse/bindfs-mac
 ```
 
@@ -27,3 +29,8 @@ if test $status -eq 0
   echo 'hi! bindfs mount point exists.'
 end
 ```
+
+## Apple Silicon では
+
+- 起動セキュリティを**低セキュリティ**にする
+- **確認済みの開発元から提供されたカーネル拡張のユーザ管理を許可**を選択にする
